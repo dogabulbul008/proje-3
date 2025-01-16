@@ -15,85 +15,29 @@ Breadboard
 
 5V Güç Kaynağı (Tiva C'nin 5V çıkışı kullanılabilir)
 
-Bağlantılar
+Donanım Bağlantıları
 
-LCD Pini
+Aşağıda LCD pinlerinin TM4C123G GPIO pinlerine nasıl bağlanacağını gösteren açıklamalar bulunmaktadır:
 
-TM4C123G GPIO
+RS (Register Select): PB0 pinine bağlanır. Bu pin, komut ve veri modu arasında geçiş yapmak için kullanılır.
 
-Açıklama
+RW (Read/Write): PB1 pinine bağlanır. LCD'nin okuma/yazma modunu kontrol eder (genellikle yazma için kullanılır).
 
-RS
+EN (Enable): PB2 pinine bağlanır. LCD'ye veri gönderimi sırasında etkinlik sağlar.
 
-PB0
+D4, D5, D6, D7 (Veri Hatları): Sırasıyla PB4, PB5, PB6 ve PB7 pinlerine bağlanır.
 
-Register Select
+VSS: Toprak bağlantısı (GND).
 
-RW
+VDD: 5V besleme bağlantısı.
 
-PB1
+V0: Kontrast ayarı için potansiyometreye bağlanır.
 
-Read/Write
+A (LED+): Arka ışık için 5V'a bağlanır (direnç üzerinden).
 
-EN
+K (LED-): Arka ışık için GND'ye bağlanır.
 
-PB2
-
-Enable
-
-D4
-
-PB4
-
-Veri hattı
-
-D5
-
-PB5
-
-Veri hattı
-
-D6
-
-PB6
-
-Veri hattı
-
-D7
-
-PB7
-
-Veri hattı
-
-VSS
-
-GND
-
-Toprak
-
-VDD
-
-5V
-
-Besleme
-
-V0
-
-Potansiyometre
-
-Kontrast ayarı
-
-A (LED+)
-
-5V (Direnç ile)
-
-Arka ışık
-
-K (LED-)
-
-GND
-
-Arka ışık
+Bağlantıları doğru şekilde yaparak LCD'nin çalışmasını sağlayabilirsiniz.
 
 Yazılım Gereksinimleri
 
