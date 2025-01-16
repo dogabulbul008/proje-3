@@ -99,9 +99,6 @@ Ekranda garip karakterler görünüyorsa:
 
 Veri hatlarının (D4-D7) doğru bağlandığını kontrol edin.
 
-Kodun doğru şekilde derlendiğinden emin olun.
 
-Lisans
 
-Bu proje MIT Lisansı altında sunulmaktadır. Kullanım ve dağıtım serbesttir.
 
